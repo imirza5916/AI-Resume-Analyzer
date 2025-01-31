@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Analyzer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        h2 {
+            color: #333;
+        }
+        textarea, input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .results {
+            margin-top: 20px;
+            text-align: left;
+            background: #eef9f2;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .results p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>AI Resume Analyzer</h2>
+
+    <label>Upload Resume (PDF/DOCX):</label>
+    <input type="file" id="resumeFile">
+
+    <label>Job Description:</label>
+    <textarea id="jobDescription" rows="5" placeholder="Paste job description here..."></textarea>
+
+    <button onclick="analyzeResume()">Analyze</button>
+
+    <div class="results" id="results"></div>
+</div>
+
+<script>
+    function analyzeResume() {
+        const fileInput = document.getElementById("resumeFile").files[0];
+        const jobDescription = document.getElementById("jobDescription").value;
+        const formData = new FormData();
+
+        if (!fileInput || !jobDescription) {
+            alert("Please upload a resume and enter a job description.");
+            return;
+        }
+
+        formData.append("resume", fileInput);
+        formData.append("job_description", jobDescription);
+
+        fetch("/analyze", {
+            method: "POST",
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            const resultsDiv = document.getElementById("results");
+            resultsDiv.innerHTML = "";  // Clear previous results
+
+            if (data.recommendations) {
+                const recommendations = data.recommendations.split("\n");
+                recommendations.forEach(line => {
+                    const p = document.createElement("p");
+                    p.textContent = line;
+                    resultsDiv.appendChild(p);
+                });
+            } else {
+                resultsDiv.innerHTML = "<p>No recommendations available.</p>";
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            alert("An error occurred. Please try again.");
+        });
+    }
+</script>
+
+</body>
+</html>

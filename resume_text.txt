@@ -1,0 +1,136 @@
+ 
+Ibrahim Mirza 
+US Citizen | imirza5916@gmail.com | (689)-278-8835 | LinkedIn: Linkedin.com/in/mirzaibrahimprofile 
+Github: Github.com/imirza5916 | Website: Applewebsitechallenger.com 
+EDUCATION​ ​
+​
+​
+ 
+University of Central Florida​
+​
+                              Orlando, Florida 
+Bachelor of Science in Computer Science, Minor in Mathematics​
+​
+                          Expected July 2026 
+o​
+Concentrations: Artificial Intelligence/Machine Learning 
+o​
+Related Coursework: C Programming, Object-Oriented Programming, Security in Computing, Calculus II-III,  
+Physics w/ Calculus II, Data Structures & Algorithms I, Differential Equations, Computer Logic & Organization 
+Discrete Structures I, Mobile Software Development, Cryptography & Information Security, Data Structures & 
+Algorithms II, UCF Foundation Exam, Matrix & Linear Algebra, Algorithms for Machine Learning 
+ 
+ 
+ 
+Valencia College​                                                                                                                                                                       Orlando, Florida 
+Associate in Arts in General Studies                                                                                                                            Aug 2020 - May 2023 
+o​
+GPA: 3.89/4.00, President’s List 
+o​
+Related Coursework: Calculus I, Physics w/ Calculus I 
+ 
+ 
+ 
+PROJECTS ​
+​
+​
+​
+ 
+Stock Predictor​ ​
+​
+                              Orlando, Florida 
+Python, Machine Learning​
+​
+​
+Jan 2025 - Present 
+●​
+Achieve 85%+ accuracy in stock price forecasting using XGBoost and financial indicators 
+●​
+Automate data collection and preprocessing from X API, and visualized sentiment analysis results to provide 
+actionable insights 
+ 
+Stock Portfolio Tracker​
+​
+​
+Orlando, Florida 
+Java​
+​
+​
+​
+  June 2024-September 2024 
+●​
+Integrated real-time stock price API for tracking over 500+ stocks dynamically. 
+●​
+Designed an intuitive GUI interface that increased user efficiency by 40% 
+ 
+Currency Converter App​
+​
+​
+Orlando, Florida 
+C++​​
+​
+​
+​
+Jan 2024 - March 2024 
+●​
+Built a real-time currency converter supporting 160+ global currencies with live exchange rates 
+●​
+Improved conversion accuracy by implementing API-driven exchange rate updates every 10 seconds 
+SKILLS​
+​
+​
+​
+ 
+Java, C, C++, Python, Kotlin, Node, JavaScript, HTML/CSS, UI/UX,  Eclipse, Linux, Microsoft Office, Android Development 
+ 
+ACTIVITIES ​
+​
+​
+​
+ 
+Pakistani Student Association(PSA)​
+​
+​
+Orlando, Florida 
+Member​
+​
+​
+                         Aug 2024 - Present 
+●​
+Collaborating with fellow members to organize cultural events, workshops, and social activities. 
+●​
+Contribute to the planning and execution of fundraising initiatives to support association activities and community 
+outreach. 
+ 
+Knight Hacks/Hackathon​
+​
+​
+Orlando, Florida 
+Researcher​
+​
+​
+                                          June 2023 
+●​
+Conducting research to gather information relevant to the project's objectives 
+●​
+Participating actively in brainstorming sessions, contributing innovative ideas and solutions 
+ 
+EXPERIENCE​ ​
+​
+​
+ 
+Awaaz Entertainment​
+​
+​
+Florida 
+Lead AV Technician​
+​
+​                        May 2020 – Present 
+●​
+Set up projectors, laptops, speakers, lights and microphones for 50+ live presentations 
+●​
+Maintain and troubleshoot audio and visual equipment to minimize downtime 
+●​
+Program and operate audio-visual equipment to support seamless live events 
+ 
+
